@@ -1,9 +1,66 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Idiet</title>
-  </head>
-  <body>
-    <p>Hi! This site is under contruction. Soon this website will become you goto nutrition website:)</p>
-  </body>
-</html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <link rel="stylesheet" type="text/css" href="reset.css">
+
+  <link  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet' type='text/css'>
+
+
+</head>
+<input type="checkbox" id="checkbox" /><label class="fa fa-bars fa-2x" for="checkbox"></label>
+<nav role='navigation'>
+  <ul class="nav">
+    <li><a href="#page-home">Home</a></li>
+    <li><a href="#page-about">About</a></li>
+    <li><a href="#page-clients">Demo</a></li>
+    <li><a href="#page-contact">Results</a></li>
+  </ul>
+  <!--
+  <ul class="soc-media">
+    <li><a href="#" class="fa fa-twitter"></a></li>
+    <li><a href="#" class="fa fa-facebook"></a></li>
+    <li><a href="#" class="fa fa-google-plus"></a></li>
+  </ul>
+-->
+</nav>
+<main class="wrapper">
+  <div class="overlay">
+  <center><img src="logo.png" alt="Retrics" class="responsive"><br>
+  </center> </div>
+
+  <section class="home" id="page-home">
+   </section>
+  <section class="about" id="page-about">
+    <div class="content">
+      <h1>What is Diet.me?</h1>
+      <p>Diet.me is a service that aims to improve the weight loss process through machine learning</p>
+        <p>Using it, individuals will have a much better understanding of their habbits and their own body</p>
+    </div>
+  </section>
+  <section class="clients" id="page-clients">
+    <div class="content">
+      <h1>Write your details and then see your your results in the corresponding tab</h1><br>
+      <center>
+        <form name="info" action"localhost:7070" method="POST">
+          <h1>About me</h1>
+          <input name = "sex" placeholder="Sex" type="text" required="">
+          <input name = "age" placeholder="Age" type="text" required="">
+          <input name = "height" placeholder="Height" type="text" required="">
+          <input name = "calories" placeholder="Calories intake" type="text" required="">
+          <button>Start</button>
+        </form>
+      </center>
+
+    </div>
+    </div>
+  </section>
+  <section class="contact" id="page-contact">
+    <div class="content">
+        <h1>Results</h1><br>
+
+
+    </div>
+  </section>
+</main>
